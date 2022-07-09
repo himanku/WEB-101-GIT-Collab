@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+  #parent{
+    height:550px;
+    width:400px;
+  
+    text-align:center;
+    display:grid;
+    grid-template-columns: 400px;
+    justify-content: center;
+    align-content: center;
+    margin:auto;
+    background-color: rgb(13, 228, 181);
+    color: antiquewhite;
+
+  }
+  
+input{
+    width:70%;
+    height:50px;
+  margin:auto;
+    margin-top:20px;
+    display: grid;
+   font-size: 20px;
+     background-color: aliceblue;
+     color: cadetblue;
+     padding-bottom: 10px;
+     border:none;
+}
+    
+  
+  button{
+    width: 70%;
+    height:70px;
+    margin:auto;
+    margin-top:20px;
+    background-color: darkcyan;
+    color:whitesmoke;
+    border: none;
+    font-size: 20px;
+  }
+    </style>
 </head>
 <body>
-    <div>git</div>
+    <div id="parent">
+        <h1>-Visitor-</h2>
+        <input type="text" placeholder="Full name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Organization">
+        <button>SIGN UP</button>
+        
+      
+        <button>RETURN</button>
+    </div>
 </body>
 </html>
