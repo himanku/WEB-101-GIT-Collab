@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mens Page</title>
+    <style>
+        #container{
+            width:90%;
+            height:auto;
+         
+            margin:auto;
+            margin-top:50px;
+            display:grid;
+            grid-template-columns: repeat(2,500px);
+            gap:100px;
+            justify-content: space-around;
+            margin-left:150px
+        }
+        #container>div{
+          height:auto;
+         
+        }
+        #container>div>h2,#container>div>h2+p{
+            font-size: 30px;
+        }
+        #container>div>h2+p{
+            margin-top:-20px
+        }
+        #container>div>img{
+         
+            height:300px;
+            margin-left:100px;
+        }
+        .sbox{
+          width:400px;
+          height:60px;
+         
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: space-around;
+            margin-top:-20px;
+            margin-left: -20px;
+        }
+        .sbox>div{
+       
+            width:100%;
+            margin:auto;
+            text-align: center;
+            height:100%;
+            font-size: 40px;
+            
+            
+        }
+        .sbox>div:first-child{
+            font-weight: bolder;
+         
+        }
+        .sbox>div:last-child{
+            color:springgreen
+        }
+        
+  
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="https://m.media-amazon.com/images/I/817d3ORBIgL._AC_UL480_FMwebp_QL65_.jpg"/>
+            <h2>Pause</h2>
+            <p>Men cotton Long Sleeves Shrugs</p>
+            <div class="sbox">
+                <div>₹ 359</div>
+                <div><del>₹ 1,499</del></div>
+                <div>-76% </div>
+               
+            </div>
+        </div>
+        <div><img src="https://m.media-amazon.com/images/I/61DVCzw99tL._AC_UL480_FMwebp_QL65_.jpg"/>
+            <h2>JUBINATION</h2>
+            <p>Men Wool Long Shrugs</p>
+            <div class="sbox">
+                <div>₹ 799</div>
+                <div><del>₹ 1,899</del></div>
+                <div>-47%</div>
+            </div></div>
+    </div>
+</body>
+</html>
